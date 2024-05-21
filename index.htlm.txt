@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Persoonlijke Webpagina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .contact-info, .hobbies {
+            margin-top: 20px;
+        }
+        .contact-info ul, .hobbies ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li, .hobbies li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welkom op Mijn Persoonlijke Webpagina</h1>
+</header>
+
+<div class="container">
+    <section class="intro">
+        <h1>John Doe</h1>
+        <p>Hallo! Mijn naam is John Doe en ik ben een gepassioneerde softwareontwikkelaar uit Nederland. Ik hou van technologie en ben altijd op zoek naar nieuwe uitdagingen en projecten om mijn vaardigheden te verbeteren.</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Informatie</h2>
+        <ul>
+            <li>E-mailadres: john.doe@example.com</li>
+            <li>Telefoonnummer: 0612345678</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+            <li>Twitter: <a href="https://twitter.com/johndoe" target="_blank">@johndoe</a></li>
+        </ul>
+    </section>
+
+    <section class="hobbies">
+        <h2>Hobby's & Interesses</h2>
+        <ul>
+            <li>Programmeren en nieuwe technologieën ontdekken</li>
+            <li>Lezen van sciencefiction en technologieboeken</li>
+            <li>Hardlopen en fitness</li>
+            <li>Reizen en nieuwe culturen ontdekken</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
